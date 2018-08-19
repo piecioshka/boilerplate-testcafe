@@ -1,13 +1,12 @@
 import { Selector } from 'testcafe';
 
 fixture`Getting Started`
-    .page`http://devexpress.github.io/testcafe/example`;
+    .page`http://piecioshka.pl/blog`;
 
 
 test('My first test', async t => {
-
     await t
-        .typeText('#developer-name', 'John Smith')
-        .click('#submit-button')
-        .expect(Selector('#article-header').innerText).eql('Thank you, John Smith!');
+        .click(Selector('a').withText('KONTAKT'))
+        .expect(Selector('h2').innerText)
+        .eql('Kontakt');
 });
