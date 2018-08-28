@@ -12,7 +12,7 @@
     "scripts": {
         "clear": "",
         "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "testcafe -e chrome test/e2e/",
+        "test": "testcafe -e 'chrome --no-sandbox' test/e2e/",
         "test:watch": "testcafe-live chrome test/e2e/",
         "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
     },
