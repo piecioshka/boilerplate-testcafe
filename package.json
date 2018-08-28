@@ -12,9 +12,10 @@
     "scripts": {
         "clear": "",
         "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "npm run test:chrome:headless",
+        "test": "npm run test:firefox:headless && npm run test:firefox",
+        "test:all": "testcafe -e all test/e2e/",
         "test:firefox": "testcafe -e firefox test/e2e/",
-        "test:firefox:headless": "testcafe -e firefox:headless test/e2e/",
+        "test:firefox:headless": "testcafe -e 'firefox:headless' test/e2e/",
         "test:chrome:headless": "testcafe -e 'chrome:headless --no-sandbox' test/e2e/",
         "test:chrome:no-sandbox": "testcafe -e 'chrome --no-sandbox' test/e2e/",
         "test:watch": "testcafe-live chrome test/e2e/",
