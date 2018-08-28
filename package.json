@@ -12,8 +12,9 @@
     "scripts": {
         "clear": "",
         "clear:all": "rm -rf node_modules/ && npm run clear",
+        "pretest": "testcafe --list-browsers",
         "test": "npm run test:all",
-        "test:all": "testcafe -e all test/e2e/",
+        "test:all": "testcafe -e all test/e2e/ --host 127.0.0.1",
         "test:firefox": "testcafe -e firefox test/e2e/",
         "test:firefox:headless": "testcafe -e 'firefox:headless' test/e2e/",
         "test:chrome:headless": "testcafe -e 'chrome:headless --no-sandbox' test/e2e/",
