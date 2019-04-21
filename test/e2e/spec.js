@@ -6,7 +6,5 @@ fixture`Getting Started`
 
 test('My first test', async t => {
     await t
-        .click(Selector('a').withText('Kontakt'))
-        .expect(Selector('h2').innerText)
-        .eql('Kontakt');
+        .expect(Selector('h1').innerText).eql('Piotr Kowalski');
 });

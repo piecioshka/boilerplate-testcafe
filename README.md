@@ -4,7 +4,7 @@
 [![dependencies](https://david-dm.org/piecioshka/test-testcafe.svg)](https://github.com/piecioshka/test-testcafe)
 [![semaphoreci](https://semaphoreci.com/api/v1/piecioshka/test-testcafe/branches/master/badge.svg)](https://semaphoreci.com/piecioshka/test-testcafe)
 
-:ledger: Testing `testcafe` project
+:ledger: Test project of `testcafe` tool.
 
 ## How to run?
 

@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "test-testcafe",
-    "description": "TODO",
+    "description": "Test project of TestCafe tool",
     "version": "1.0.0",
     "license": "MIT",
     "author": {
@@ -18,8 +18,7 @@
         "test:firefox:headless": "testcafe -e 'firefox:headless' test/e2e/",
         "test:chrome:headless": "testcafe -e 'chrome:headless --no-sandbox' test/e2e/",
         "test:chrome:no-sandbox": "testcafe -e 'chrome --no-sandbox' test/e2e/",
-        "test:watch": "testcafe-live chrome test/e2e/",
-        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
+        "test:watch": "testcafe-live chrome test/e2e/"
     },
     "dependencies": {},
     "devDependencies": {
