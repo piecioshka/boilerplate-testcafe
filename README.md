@@ -1,6 +1,6 @@
 # test-testcafe
 
-[![travis](https://img.shields.io/travis/piecioshka/test-testcafe.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/test-testcafe)
+[![travis](https://img.shields.io/travis/piecioshka/test-testcafe.svg)](https://travis-ci.org/piecioshka/test-testcafe)
 [![dependencies](https://david-dm.org/piecioshka/test-testcafe.svg)](https://github.com/piecioshka/test-testcafe)
 [![semaphoreci](https://semaphoreci.com/api/v1/piecioshka/test-testcafe/branches/master/badge.svg)](https://semaphoreci.com/piecioshka/test-testcafe)
 
