@@ -1,8 +1,7 @@
 # boilerplate-testcafe
 
-[![dependencies](https://david-dm.org/piecioshka/boilerplate-testcafe.svg)](https://github.com/piecioshka/boilerplate-testcafe)
-[![travis](https://img.shields.io/travis/piecioshka/boilerplate-testcafe.svg)](https://travis-ci.org/piecioshka/boilerplate-testcafe)
-[![semaphoreci](https://semaphoreci.com/api/v1/piecioshka/boilerplate-testcafe/branches/master/badge.svg)](https://semaphoreci.com/piecioshka/boilerplate-testcafe)
+[![travis-ci](https://img.shields.io/travis/piecioshka/boilerplate-testcafe.svg)](https://travis-ci.org/piecioshka/boilerplate-testcafe)
+[![semaphore-ci](https://semaphoreci.com/api/v1/piecioshka/boilerplate-testcafe/branches/master/badge.svg)](https://semaphoreci.com/piecioshka/boilerplate-testcafe)
 
 :ledger: Testing [TestCafe](https://devexpress.github.io/testcafe/)
 
