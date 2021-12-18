@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "test-testcafe",
+    "name": "boilerplate-testcafe",
     "description": "Testing TestCafe",
     "version": "1.0.0",
     "license": "MIT",
@@ -27,6 +27,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:piecioshka/test-testcafe.git"
+        "url": "git@github.com:piecioshka/boilerplate-testcafe.git"
     }
 }

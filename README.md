@@ -1,8 +1,8 @@
-# test-testcafe
+# boilerplate-testcafe
 
-[![dependencies](https://david-dm.org/piecioshka/test-testcafe.svg)](https://github.com/piecioshka/test-testcafe)
-[![travis](https://img.shields.io/travis/piecioshka/test-testcafe.svg)](https://travis-ci.org/piecioshka/test-testcafe)
-[![semaphoreci](https://semaphoreci.com/api/v1/piecioshka/test-testcafe/branches/master/badge.svg)](https://semaphoreci.com/piecioshka/test-testcafe)
+[![dependencies](https://david-dm.org/piecioshka/boilerplate-testcafe.svg)](https://github.com/piecioshka/boilerplate-testcafe)
+[![travis](https://img.shields.io/travis/piecioshka/boilerplate-testcafe.svg)](https://travis-ci.org/piecioshka/boilerplate-testcafe)
+[![semaphoreci](https://semaphoreci.com/api/v1/piecioshka/boilerplate-testcafe/branches/master/badge.svg)](https://semaphoreci.com/piecioshka/boilerplate-testcafe)
 
 :ledger: Testing [TestCafe](https://devexpress.github.io/testcafe/)
 
@@ -14,12 +14,12 @@ npm test
 
 ## Related
 
-* [test-codeceptjs](https://github.com/piecioshka/test-codeceptjs)
-* [test-cucumberjs](https://github.com/piecioshka/test-cucumberjs)
-* [test-cypress](https://github.com/piecioshka/test-cypress)
-* [test-nightwatch-chrome-headless](https://github.com/piecioshka/test-nightwatch-chrome-headless)
-* [test-puppeteer-jasmine](https://github.com/piecioshka/test-puppeteer-jasmine)
-* [test-testcafe](https://github.com/piecioshka/test-testcafe)
+* [boilerplate-codeceptjs](https://github.com/piecioshka/boilerplate-codeceptjs)
+* [boilerplate-cucumberjs](https://github.com/piecioshka/boilerplate-cucumberjs)
+* [boilerplate-cypress](https://github.com/piecioshka/boilerplate-cypress)
+* [boilerplate-nightwatch-chrome-headless](https://github.com/piecioshka/boilerplate-nightwatch-chrome-headless)
+* [boilerplate-puppeteer-jasmine](https://github.com/piecioshka/boilerplate-puppeteer-jasmine)
+* [boilerplate-testcafe](https://github.com/piecioshka/boilerplate-testcafe)
 
 ## License
 
