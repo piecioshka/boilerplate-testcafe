@@ -1,32 +1,29 @@
 {
-    "private": true,
-    "name": "boilerplate-testcafe",
-    "description": "Testing TestCafe",
-    "version": "1.0.0",
-    "license": "MIT",
-    "author": {
-        "name": "Piotr Kowalski",
-        "email": "piecioshka@gmail.com",
-        "url": "https://piecioshka.pl/"
-    },
-    "scripts": {
-        "clear": "",
-        "clear:all": "rm -rf node_modules/ && npm run clear",
-        "pretest": "testcafe --list-browsers",
-        "test": "npm run test:chrome:headless",
-        "test:firefox": "testcafe -e firefox test/e2e/",
-        "test:firefox:headless": "testcafe -e 'firefox:headless' test/e2e/",
-        "test:chrome:headless": "testcafe -e 'chrome:headless --no-sandbox' test/e2e/",
-        "test:chrome:no-sandbox": "testcafe -e 'chrome --no-sandbox' test/e2e/",
-        "test:watch": "testcafe-live chrome test/e2e/"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "testcafe": "^1.1.4",
-        "testcafe-live": "^0.1.4"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:piecioshka/boilerplate-testcafe.git"
-    }
+  "private": true,
+  "name": "boilerplate-testcafe",
+  "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "pretest": "testcafe --list-browsers",
+    "test": "npm run test:chrome:headless",
+    "test:firefox": "testcafe -e firefox test/e2e/",
+    "test:firefox:headless": "testcafe -e 'firefox:headless' test/e2e/",
+    "test:chrome:headless": "testcafe -e 'chrome:headless --no-sandbox' test/e2e/",
+    "test:chrome:no-sandbox": "testcafe -e 'chrome --no-sandbox' test/e2e/",
+    "test:watch": "testcafe-live chrome test/e2e/"
+  },
+  "devDependencies": {
+    "testcafe": "^1.17.1",
+    "testcafe-live": "^0.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piecioshka/boilerplate-testcafe.git"
+  }
 }

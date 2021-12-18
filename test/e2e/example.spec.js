@@ -4,7 +4,7 @@ fixture`Getting Started`
     .page`https://piecioshka.pl/blog/`;
 
 
-test('My first test', async t => {
+test('Is header contains correct text?', async t => {
     await t
-        .expect(Selector('h1').innerText).eql('Piotr Kowalski');
+        .expect(Selector('h1').innerText).eql('Blog');
 });
