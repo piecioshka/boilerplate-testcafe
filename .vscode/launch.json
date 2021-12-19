@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Testing",
       "program": "${workspaceFolder}/node_modules/.bin/testcafe",
-      "args": ["-e", "chrome:headless --no-sandbox", "test/e2e/"],
+      "args": ["-e", "chrome:headless --no-sandbox", "e2e/"],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
     }

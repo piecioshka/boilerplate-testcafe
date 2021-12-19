@@ -10,13 +10,13 @@
     "url": "https://piecioshka.pl/"
   },
   "scripts": {
-    "pretest": "testcafe --list-browsers",
-    "test": "npm run test:chrome:headless",
-    "test:firefox": "testcafe -e firefox test/e2e/",
-    "test:firefox:headless": "testcafe -e 'firefox:headless' test/e2e/",
-    "test:chrome:headless": "testcafe -e 'chrome:headless --no-sandbox' test/e2e/",
-    "test:chrome:no-sandbox": "testcafe -e 'chrome --no-sandbox' test/e2e/",
-    "test:watch": "testcafe-live chrome test/e2e/"
+    "pree2e": "testcafe --list-browsers",
+    "e2e": "npm run e2e:chrome:headless",
+    "e2e:firefox": "testcafe -e firefox e2e/",
+    "e2e:firefox:headless": "testcafe -e 'firefox:headless' e2e/",
+    "e2e:chrome:headless": "testcafe -e 'chrome:headless --no-sandbox' e2e/",
+    "e2e:chrome:no-sandbox": "testcafe -e 'chrome --no-sandbox' e2e/",
+    "e2e:watch": "testcafe-live chrome e2e/"
   },
   "devDependencies": {
     "testcafe": "^1.17.1",
