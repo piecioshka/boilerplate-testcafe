@@ -6,7 +6,7 @@
 
 ## Features
 
-* :white_check_mark: TestCafe `v1.17.1`
+- ✅ TestCafe `v1.17.1`
 
 ## End-to-end tests
 
@@ -25,4 +25,4 @@ npm run e2e
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2018-2021
+[The MIT License](https://piecioshka.mit-license.org) @ 2018
